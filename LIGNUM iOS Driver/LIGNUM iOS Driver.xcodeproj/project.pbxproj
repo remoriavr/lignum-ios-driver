@@ -1,0 +1,324 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		957D135C1D4F2D98006542D3 /* LIGNUM.m in Sources */ = {isa = PBXBuildFile; fileRef = 957D135B1D4F2D98006542D3 /* LIGNUM.m */; };
+		95AE8F591D4F2A7A0013B7AC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 95AE8F581D4F2A7A0013B7AC /* main.m */; };
+		95AE8F5C1D4F2A7A0013B7AC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 95AE8F5B1D4F2A7A0013B7AC /* AppDelegate.m */; };
+		95AE8F5F1D4F2A7A0013B7AC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95AE8F5E1D4F2A7A0013B7AC /* ViewController.m */; };
+		95AE8F621D4F2A7A0013B7AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95AE8F601D4F2A7A0013B7AC /* Main.storyboard */; };
+		95AE8F641D4F2A7A0013B7AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95AE8F631D4F2A7A0013B7AC /* Assets.xcassets */; };
+		95AE8F671D4F2A7A0013B7AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95AE8F651D4F2A7A0013B7AC /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		957D135A1D4F2D98006542D3 /* LIGNUM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LIGNUM.h; path = ../../LIGNUM.h; sourceTree = "<group>"; };
+		957D135B1D4F2D98006542D3 /* LIGNUM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LIGNUM.m; path = ../../LIGNUM.m; sourceTree = "<group>"; };
+		95AE8F541D4F2A7A0013B7AC /* LIGNUM iOS Driver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LIGNUM iOS Driver.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		95AE8F581D4F2A7A0013B7AC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		95AE8F5A1D4F2A7A0013B7AC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		95AE8F5B1D4F2A7A0013B7AC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		95AE8F5D1D4F2A7A0013B7AC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		95AE8F5E1D4F2A7A0013B7AC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		95AE8F611D4F2A7A0013B7AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		95AE8F631D4F2A7A0013B7AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		95AE8F661D4F2A7A0013B7AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		95AE8F681D4F2A7A0013B7AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		95AE8F511D4F2A7A0013B7AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		95AE8F4B1D4F2A7A0013B7AC = {
+			isa = PBXGroup;
+			children = (
+				95AE8F561D4F2A7A0013B7AC /* LIGNUM iOS Driver */,
+				95AE8F551D4F2A7A0013B7AC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		95AE8F551D4F2A7A0013B7AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				95AE8F541D4F2A7A0013B7AC /* LIGNUM iOS Driver.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		95AE8F561D4F2A7A0013B7AC /* LIGNUM iOS Driver */ = {
+			isa = PBXGroup;
+			children = (
+				957D135A1D4F2D98006542D3 /* LIGNUM.h */,
+				957D135B1D4F2D98006542D3 /* LIGNUM.m */,
+				95AE8F5A1D4F2A7A0013B7AC /* AppDelegate.h */,
+				95AE8F5B1D4F2A7A0013B7AC /* AppDelegate.m */,
+				95AE8F5D1D4F2A7A0013B7AC /* ViewController.h */,
+				95AE8F5E1D4F2A7A0013B7AC /* ViewController.m */,
+				95AE8F601D4F2A7A0013B7AC /* Main.storyboard */,
+				95AE8F631D4F2A7A0013B7AC /* Assets.xcassets */,
+				95AE8F651D4F2A7A0013B7AC /* LaunchScreen.storyboard */,
+				95AE8F681D4F2A7A0013B7AC /* Info.plist */,
+				95AE8F571D4F2A7A0013B7AC /* Supporting Files */,
+			);
+			path = "LIGNUM iOS Driver";
+			sourceTree = "<group>";
+		};
+		95AE8F571D4F2A7A0013B7AC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				95AE8F581D4F2A7A0013B7AC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		95AE8F531D4F2A7A0013B7AC /* LIGNUM iOS Driver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95AE8F6B1D4F2A7A0013B7AC /* Build configuration list for PBXNativeTarget "LIGNUM iOS Driver" */;
+			buildPhases = (
+				95AE8F501D4F2A7A0013B7AC /* Sources */,
+				95AE8F511D4F2A7A0013B7AC /* Frameworks */,
+				95AE8F521D4F2A7A0013B7AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LIGNUM iOS Driver";
+			productName = "LIGNUM iOS Driver";
+			productReference = 95AE8F541D4F2A7A0013B7AC /* LIGNUM iOS Driver.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		95AE8F4C1D4F2A7A0013B7AC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				KnownAssetTags = (
+					LIGNUM_PACKET,
+				);
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Remoria VR";
+				TargetAttributes = {
+					95AE8F531D4F2A7A0013B7AC = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 6YQ43V4HTJ;
+					};
+				};
+			};
+			buildConfigurationList = 95AE8F4F1D4F2A7A0013B7AC /* Build configuration list for PBXProject "LIGNUM iOS Driver" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 95AE8F4B1D4F2A7A0013B7AC;
+			productRefGroup = 95AE8F551D4F2A7A0013B7AC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				95AE8F531D4F2A7A0013B7AC /* LIGNUM iOS Driver */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		95AE8F521D4F2A7A0013B7AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95AE8F671D4F2A7A0013B7AC /* LaunchScreen.storyboard in Resources */,
+				95AE8F641D4F2A7A0013B7AC /* Assets.xcassets in Resources */,
+				95AE8F621D4F2A7A0013B7AC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		95AE8F501D4F2A7A0013B7AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95AE8F5F1D4F2A7A0013B7AC /* ViewController.m in Sources */,
+				95AE8F5C1D4F2A7A0013B7AC /* AppDelegate.m in Sources */,
+				95AE8F591D4F2A7A0013B7AC /* main.m in Sources */,
+				957D135C1D4F2D98006542D3 /* LIGNUM.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		95AE8F601D4F2A7A0013B7AC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95AE8F611D4F2A7A0013B7AC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		95AE8F651D4F2A7A0013B7AC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95AE8F661D4F2A7A0013B7AC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		95AE8F691D4F2A7A0013B7AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		95AE8F6A1D4F2A7A0013B7AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		95AE8F6C1D4F2A7A0013B7AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "LIGNUM iOS Driver/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.remoriavr.LIGNUM-iOS-Driver";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		95AE8F6D1D4F2A7A0013B7AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "LIGNUM iOS Driver/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.remoriavr.LIGNUM-iOS-Driver";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		95AE8F4F1D4F2A7A0013B7AC /* Build configuration list for PBXProject "LIGNUM iOS Driver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95AE8F691D4F2A7A0013B7AC /* Debug */,
+				95AE8F6A1D4F2A7A0013B7AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95AE8F6B1D4F2A7A0013B7AC /* Build configuration list for PBXNativeTarget "LIGNUM iOS Driver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95AE8F6C1D4F2A7A0013B7AC /* Debug */,
+				95AE8F6D1D4F2A7A0013B7AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 95AE8F4C1D4F2A7A0013B7AC /* Project object */;
+}
